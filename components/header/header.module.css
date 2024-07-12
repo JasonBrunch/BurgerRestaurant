@@ -1,0 +1,18 @@
+.header {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hamburger {
+    position: absolute;
+    left: 1rem;
+  }
+  
+  .logoContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }

@@ -1,0 +1,32 @@
+import React from "react";
+import styles from "./hero.module.css";
+import Image from "next/image";
+import HeroButton from "../buttons/HeroButton.js"
+
+
+const HeroSection = () => {
+    return(
+       <section className={styles.hero}>
+        <div className={styles.heroContent}>
+        <h3 className={`${styles.heroText} debug`}>(h3)Sunshine Coast</h3>
+
+            <div className={styles.heroImage}>
+                <Image 
+                src="/images/burgerco.svg" 
+                alt="Burger Company"
+                height={200}
+                width={200}
+      
+                />
+            </div>
+            <div className={styles.buttonWrapper}>
+                <HeroButton/>
+            </div>
+   
+            
+        </div>
+       </section>
+    );
+};
+
+export default HeroSection;

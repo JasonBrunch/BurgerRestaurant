@@ -1,0 +1,19 @@
+.hero{
+    height: 500px;
+    background-color: var(--color-green-background);
+
+    display: flex;
+    align-items: center;
+    padding: 0 var(--padding-main);
+}
+.heroText {
+    font-family: var(--font-relation-bold); /* Use the regular font family */
+    font-weight: 700; /* Normal weight */
+  }
+  
+
+
+
+.buttonWrapper{
+    max-width: 150px;
+}
