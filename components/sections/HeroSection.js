@@ -5,27 +5,24 @@ import HeroButton from "../buttons/HeroButton.js"
 
 
 const HeroSection = () => {
-    return(
-       <section className={styles.hero}>
-        <div className={styles.heroContent}>
-        <h3 className={`${styles.heroText} debug`}>(h3)Sunshine Coast</h3>
-
-            <div className={styles.heroImage}>
-                <Image 
-                src="/images/burgerco.svg" 
-                alt="Burger Company"
-                height={200}
-                width={200}
-      
-                />
+    return (
+        <section className={styles.hero}>
+            <div className={`${styles.heroContent} debug2`}>
+                <h3 className={`${styles.heroText} debug`}>(h3)Sunshine Coast</h3>
+                <div className={`${styles.heroImage} debug3`}>
+                    <Image
+                        src="/images/burgerco.svg"
+                        alt="Burger Company"
+                        height={200}
+                        width={200}
+                        layout="responsive"
+                    />
+                </div>
+                <div className={styles.buttonWrapper}>
+                    <HeroButton />
+                </div>
             </div>
-            <div className={styles.buttonWrapper}>
-                <HeroButton/>
-            </div>
-   
-            
-        </div>
-       </section>
+        </section>
     );
 };
 

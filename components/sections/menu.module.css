@@ -1,0 +1,21 @@
+.section{
+    background-color: var(--color-black-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.title{
+    color: var(--color-bright-red);
+    font-family: var(--font-fancy);
+ 
+}
+.burgerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuItem{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+}

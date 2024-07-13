@@ -15,7 +15,7 @@ const AboutSection = () => {
                 Usu ad alienum suscipit posidonium, ut est invidunt indoctum accusamus.</p>
             <div className={styles.videoContainer}>
                 <video width="600" controls>
-                    <source src="https://www.pexels.com/video-url.mp4" type="video/mp4" />
+                    <source src="https://videos.pexels.com/video-files/4253723/4253723-uhd_2732_1440_25fps.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>

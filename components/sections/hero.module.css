@@ -6,10 +6,14 @@
     align-items: center;
     padding: 0 var(--padding-main);
 }
-.heroText {
-    font-family: var(--font-relation-bold); /* Use the regular font family */
-    font-weight: 700; /* Normal weight */
-  }
+
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    
+}
+
   
 
 

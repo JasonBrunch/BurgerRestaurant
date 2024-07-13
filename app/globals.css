@@ -11,8 +11,11 @@
   --font-dream-big-narrow: 'dream-big-narrow', sans-serif;
   --font-dream-big-regular: 'dream-big-regular', sans-serif;
   --font-dream-big-wide: 'dream-big-wide', sans-serif;
-  --font-relation-regular: 'relation-one', sans-serif; /* Add Relation Regular */
-  --font-relation-bold: 'relation-one', sans-serif; /* Add Relation Bold */
+  --font-relation-regular: 'relation-one', sans-serif;
+  /* Add Relation Regular */
+  --font-relation-bold: 'relation-one', sans-serif;
+  --font-fancy: 'relation-one', sans-serif;
+  /* Add Relation Bold */
 
   --padding-main: 4rem;
 
@@ -54,24 +57,80 @@ a {
 }
 
 /*TYPOGRAPHY*/
-h1, h2, h3, h4, h5, h6, p, .smaller-text, .smallest-text{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.smaller-text,
+.smallest-text {
   margin: 0;
   padding: 0;
 }
-h1 { font-size: 3.2rem; line-height: 3rem; }
-h2 { font-size: 4.5rem; line-height: 5rem; font-weight: 500; }
-h3 { font-size: 3rem; line-height: 3.5rem; }
-h4 { font-size: 2.4rem; line-height: 2.5rem; }
-h5 { font-size: 2rem; line-height: 2rem; }
-h6 { font-size: 1rem; line-height: 1.5rem; }
-p { font-size: 1.25rem; line-height: 1.6rem; }
-.smaller-text { font-size: 0.75rem; line-height: 1rem; }
-.smallest-text { font-size: 0.875rem; line-height: 1rem; }
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: var(--color-dark-text);
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-family: var(--font-relation-bold);
+  font-weight: 700;
+  color: var(--color-light-red);
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+}
+
+.smaller-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.smallest-text {
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
 
 
 .debug {
   border: 2px dashed red;
-  ;
+}
+
+.debug2 {
+  border: 2px dashed rgb(179, 48, 188);
+}
+
+.debug3 {
+  border: 2px dashed rgb(10, 127, 230);
 }
 
 
