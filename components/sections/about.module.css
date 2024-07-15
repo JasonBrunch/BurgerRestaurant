@@ -1,6 +1,6 @@
 .section{
     background-color: var(--color-beige-background);
-    padding: 2rem;
+    padding: 2rem var(--padding-main);
 }
 
 .videoContainer {

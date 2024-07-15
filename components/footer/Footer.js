@@ -6,14 +6,14 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <section className={styles.topSection}>
                 <h5>(h5)OPENING HOURS</h5>
                 <div className={styles.hoursContainer}>
                     <div className={styles.hoursLine}>
-                        <h6>(h6)MONDAY</h6>
-                        <hr />
-                        <p>10:00am - 10:00pm</p>
+                        <h6 className="debug">(h6)MONDAY</h6>
+                        <hr/>
+                        <p className="debug">10:00am - 10:00pm</p>
                     </div>
                     <div className={styles.hoursLine}>
                         <h6>(h6)TUESDAY</h6>
@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <h5>(h5)CONTACT US</h5>
-                <p>info@scburgerco.ca <br />
+                <p className="light-text">info@scburgerco.ca <br />
                     1-604-720-8680 <br />
                     23419 Gray Rd. <br />
                     Sechelt, BC <br />
@@ -61,11 +61,11 @@ const Footer = () => {
                 </div>
             </section >
             <section className={styles.bottomSection}>
-                <p>Stuff Goes Here</p>
+                <p className="smaller-text">Stuff Goes Here</p>
                 <div className={styles.socialMediaContainer}>
                     social media icons go Here
                 </div>
-                <p>C 2024 Spacedog Interactive. All Rights Reserved</p>
+                <p className="smaller-text">C 2024 Spacedog Interactive. All Rights Reserved</p>
             </section>
         </footer>
     );

@@ -8,7 +8,7 @@ const HeroSection = () => {
     return (
         <section className={styles.hero}>
             <div className={`${styles.heroContent} debug2`}>
-                <h3 className={`${styles.heroText} debug`}>(h3)Sunshine Coast</h3>
+                <h3 className={`${styles.heroText} debug`}>Sunshine Coast</h3>
                 <div className={`${styles.heroImage} debug3`}>
                     <Image
                         src="/images/burgerco.svg"

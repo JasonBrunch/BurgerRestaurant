@@ -1,0 +1,39 @@
+
+.topSection{
+    background-color: rgb(37, 37, 37);
+    color: var(--color-white-text);
+    padding: 4rem var(--padding-main) 0 var(--padding-main);
+}
+.hoursLine{
+    display: flex;
+    flex-direction: row;
+    align-items:end
+
+    
+    
+}
+.hoursLine hr {
+    flex-grow: 1; /* Make the line grow to fill the available space */
+    border: 2px dashed red;
+    
+    display: flex;
+    
+    
+}
+.hoursLine h6 {
+ line-height: 1;
+    
+    
+}
+.hoursLine p {
+    line-height: 1;      
+}
+
+.bottomSection{
+    background-color: rgb(37, 37, 37);
+    color: var(--color-white-text);
+    padding: var(--padding-main);
+
+    display: flex;
+    flex-direction: column;
+}

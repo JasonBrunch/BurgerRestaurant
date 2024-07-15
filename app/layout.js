@@ -1,10 +1,15 @@
 import { Inter } from "next/font/google";
+
+
+
 import "./globals.css";
+
 
 import Header from "../components/header/header.js";
 import Footer from "../components/footer/Footer.js";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Sunshine Coast Burger Co.",

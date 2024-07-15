@@ -14,15 +14,16 @@
   --font-relation-regular: 'relation-one', sans-serif;
   /* Add Relation Regular */
   --font-relation-bold: 'relation-one', sans-serif;
-  --font-fancy: 'relation-one', sans-serif;
+  --font-fancy: 'pacifico', sans-serif;
   /* Add Relation Bold */
 
-  --padding-main: 4rem;
+
 
   /*COLOR VARIABLES*/
 
   --color-dark-text: #292929;
   --color-medium-text: #626262;
+  --color-light-text:#d2d2d2;
   --color-white-text: #FFFFFF;
   --color-black-background: #232323;
   --color-beige-background: #f3f0e7;
@@ -85,14 +86,13 @@ h2 {
 h3 {
   font-size: 3rem;
   line-height: 3.5rem;
-  font-family: var(--font-relation-bold);
-  font-weight: 700;
   color: var(--color-light-red);
+  font-family: var(--font-fancy);
 }
 
 h4 {
-  font-size: 2.4rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 h5 {
@@ -106,7 +106,7 @@ h6 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.6rem;
 }
 
@@ -120,7 +120,36 @@ p {
   line-height: 1rem;
 }
 
+.white-text{
+  color: var(--color-white-text);
+}
+.bright-red-text{
+  color: var(--color-bright-red);
+}
+.light-red-text{
+  color: var(--color-light-red);
+}
+.light-text{
+  color: var(--color-light-text);
+}
+.medium-text{
+  color: var(--color-medium-text);
+}
+.dark-text{
+  color: var(--color-dark-text);
+}
+.center-text {
+  text-align: center;
+}
 
+
+
+/*FONTS*/
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .debug {
   border: 2px dashed red;
 }

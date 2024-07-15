@@ -1,0 +1,12 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-beige-background);
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
