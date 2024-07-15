@@ -1,8 +1,19 @@
 .section{
     background-color: var(--color-beige-background);
-    padding: 2rem var(--padding-main);
+    padding: 3rem var(--padding-main);
 }
-
+.section h3{
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    line-height: 0.7;
+}
+.section h2{
+    padding-right: 2rem;
+}
+.section p{
+    padding: 2.5rem 0;
+    padding-right: 1rem;
+}
 .videoContainer {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */

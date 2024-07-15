@@ -2,32 +2,123 @@
 .topSection{
     background-color: rgb(37, 37, 37);
     color: var(--color-white-text);
-    padding: 4rem var(--padding-main) 0 var(--padding-main);
+    padding: 4rem var(--padding-main) 2.5rem var(--padding-main);
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hoursContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding-right: 4rem;
 }
 .hoursLine{
     display: flex;
     flex-direction: row;
-    align-items:end
+    align-items:flex-end;
 
     
     
 }
 .hoursLine hr {
     flex-grow: 1; /* Make the line grow to fill the available space */
-    border: 2px dashed red;
-    
     display: flex;
-    
-    
+    margin-left: 5px;
+    margin-right: 5px;  
 }
 .hoursLine h6 {
- line-height: 1;
+ line-height: 0.5;
     
     
 }
 .hoursLine p {
-    line-height: 1;      
+    line-height: 0.5;
+    color: var(--color-light-red);      
 }
+
+.contactContainer{
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.newsletterContainer{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+
+
+
+.formContainer {
+    /* Add any container-specific styles here */
+    display: flex;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.formContainer input {
+    border: 2px solid #fff; /* White outline */
+    background-color: transparent; /* Transparent background */
+    color: #d2d2d2; /* Lighter text color */
+    padding: 10px;
+    margin-right: 10px;
+    outline: none; /* Remove default outline */
+    font-size: 16px;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+
+.formContainer input::placeholder {
+    color: #d2d2d2; /* Lighter text color for placeholder */
+}
+
+.formContainer input:focus {
+    border-color: #9ed4d4; /* Change outline color on focus */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly opaque background on focus */
+    color: #fff; /* Change text color on focus */
+}
+
+.formContainer button {
+    all: unset;
+    background-color: var(--color-light-red); /* Transparent background */
+    color: #d2d2d2; /* Lighter text color */
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.formContainer button:hover {
+    border-color: #9ed4d4; /* Change outline color on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly opaque background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottomSection{
     background-color: rgb(37, 37, 37);

@@ -10,12 +10,11 @@ const LocationSection = () => {
         <section className={styles.section}>
             <h2>LOCATIONS</h2>
             <div className={styles.buttonContainer}>
-                <SOButton />
-                <SOButton />
-                <SOButton />
+                <SOButton text="GIBSONS" />
+                <SOButton text="SECHELT" />
             </div>
-            <h4 className="dark-text center-text">(h4)1873 W 4TH AVE. < br/>
-             VANCOUVER BC / V6J 1M4<br/>
+            <h4 className="dark-text center-text">1873 W 4TH AVE. < br/>
+             VANCOUVER BC. <br/> V6J 1M4<br/>
              (604) 732-9545 <br/>
               EMAIL: GMFA@XTRAMILE.CA
             </h4>

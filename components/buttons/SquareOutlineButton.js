@@ -5,9 +5,9 @@ import styles from "./squareOutlineButton.module.css"
 
 
 
-const SOButton = () => {
+const SOButton = ({text}) => {
     return(
-        <button className={styles.button}  role="button">SEE MENU</button>
+        <button className={styles.button}  role="button">{text}</button>
     );
 };
 

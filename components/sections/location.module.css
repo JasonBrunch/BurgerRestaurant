@@ -3,10 +3,13 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--color-beige-background);
+
+    padding: 4rem 0;
+    gap: 2.5rem;
 }
 .buttonContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
 }

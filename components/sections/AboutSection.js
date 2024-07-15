@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const AboutSection = () => {
     return (
-        <section className={styles.section}>
-            <h3>(h3) It Tastes Great!</h3>
-            <h2>(h2) BEVERAGES & FOOD YOU WON'T FIND ANYWHERE ELSE</h2>
+        <section className={`${styles.section} `}>
+            <h3 >It tastes great!</h3>
+            <h2>BEVERAGES & FOOD YOU WON'T FIND ANYWHERE ELSE</h2>
             <p>Lorem ipsum dolor sit amet, admodum civibus delicatissimi mei cu. Has eu impedit vocibus,
                 ut his doctus definitiones, no expetenda deseruisse nam. Nusquam urbanitas in vix. Ex sea
                 reque senserit, mea te ullum errem. Debet docendi deserunt duo an, Magna molestie duo id.

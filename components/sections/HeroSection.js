@@ -6,16 +6,17 @@ import HeroButton from "../buttons/HeroButton.js"
 
 const HeroSection = () => {
     return (
-        <section className={styles.hero}>
-            <div className={`${styles.heroContent} debug2`}>
-                <h3 className={`${styles.heroText} debug`}>Sunshine Coast</h3>
-                <div className={`${styles.heroImage} debug3`}>
+        <section className={`${styles.hero} `}>
+            <div className={`${styles.heroContent} `}>
+                <h3 className={`${styles.heroText} `}>Sunshine Coast</h3>
+                <div className={`${styles.heroImage} `}>
                     <Image
                         src="/images/burgerco.svg"
-                        alt="Burger Company"
-                        height={200}
-                        width={200}
-                        layout="responsive"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }} // optional
+                        alt="Sunshine Coast Burger Company"
                     />
                 </div>
                 <div className={styles.buttonWrapper}>

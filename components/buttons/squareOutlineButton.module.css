@@ -2,16 +2,16 @@
 /* CSS */
 .button {
   align-items: center;
-  background-color: #fff;
-  border: 2px solid #000;
+  background-color: transparent;
+  border: 6.5px solid var(--color-light-red);
   box-sizing: border-box;
-  color: #000;
+  color: var(--color-light-red);
   cursor: pointer;
   display: inline-flex;
   fill: #000;
   font-family: Inter,sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   height: 48px;
   justify-content: center;
   letter-spacing: -.8px;
