@@ -8,7 +8,8 @@
   
   .hamburger {
     position: absolute;
-    left: 1rem;
+    left: var(--padding-main);
+
   }
   
   .logoContainer {
