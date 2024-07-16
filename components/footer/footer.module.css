@@ -76,7 +76,7 @@
 }
 
 .formContainer input::placeholder {
-    color: #d2d2d2; /* Lighter text color for placeholder */
+    color: #858585; /* Lighter text color for placeholder */
 }
 
 .formContainer input:focus {
@@ -89,7 +89,8 @@
     all: unset;
     background-color: var(--color-light-red); /* Transparent background */
     color: #d2d2d2; /* Lighter text color */
-    padding: 8px 16px;
+    padding: px 16px;
+    min-width: 40px;
     cursor: pointer;
     text-align: center;
     font-size: 20px;
@@ -118,13 +119,26 @@
 
 
 
-
-
 .bottomSection{
     background-color: rgb(37, 37, 37);
     color: var(--color-white-text);
-    padding: var(--padding-main);
+    padding: 1rem var(--padding-main);
 
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
+
+
+
+.socialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+  
+  .socialIcon:hover {
+    fill: var(--color-bright-red); /* Change color on hover */
+  }

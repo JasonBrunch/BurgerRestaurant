@@ -118,8 +118,9 @@ p {
 }
 
 .smaller-text {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1rem;
+  font-family: var(--font-share);
 }
 
 .smallest-text {
