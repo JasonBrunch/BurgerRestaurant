@@ -1,38 +1,79 @@
-.section{
+.section {
     background-color: var(--color-beige-background);
     padding: 3rem var(--padding-main);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
 }
-.section h3{
+
+.aboutContent {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem; /* Add space between content and video sections */
+}
+
+.aboutContent h3 {
     padding-right: 10rem;
     padding-bottom: 1rem;
     line-height: 0.7;
 }
-.section h2{
+
+.aboutContent h2 {
     padding-right: 2rem;
 }
-.section p{
+
+.aboutContent p {
     padding: 2.5rem 0;
     padding-right: 1rem;
+    color: var(--color-medium-text);
 }
+
+.videoSection {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
 .videoContainer {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px; /* Set the max-width you want */
     background: #000;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .videoContainer video {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover; /* Ensures the video covers the container without distortion */
 }
 
+@media (min-width: 992px) {
+    .section{
+        padding: 3rem 0;
+    }
+    .aboutContent {
+        padding-left: var(--padding-large);
+    }
 
-.section p{
-    color: var(--color-medium-text);
+    .aboutContent h3 {
+        padding-right: 10rem;
+        padding-bottom: 0rem;
+        line-height: 0.7;
+    }
+
+    .aboutContent h2 {
+        padding-right: 2rem;
+    }
+
+    .aboutContent p {
+        padding: 0;
+        padding-right: 1rem;
+    }
+    .videoSection{
+        padding-right: var(--padding-large);
+    }
 }

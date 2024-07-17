@@ -16,7 +16,7 @@
   /* Add Relation Regular */
   --font-relation-bold: 'relation-one', sans-serif;
   --font-fancy: 'pacifico', sans-serif;
-  --font-share:  'Share', sans-serif;
+  --font-share: 'Share', sans-serif;
   /* Add Relation Bold */
 
 
@@ -25,7 +25,7 @@
 
   --color-dark-text: #292929;
   --color-medium-text: #626262;
-  --color-light-text:#d2d2d2;
+  --color-light-text: #d2d2d2;
   --color-white-text: #FFFFFF;
   --color-black-background: #232323;
   --color-beige-background: #f3f0e7;
@@ -34,6 +34,7 @@
   --color-bright-red: #ea484a;
 
   --padding-main: 1.7rem;
+  --padding-large: 10rem;
 
 
 
@@ -76,6 +77,8 @@ p,
 h1 {
   font-size: 3.4rem;
   line-height: 3rem;
+  font-family: var(--font-fancy);
+  color: var(--color-light-red);
 }
 
 h2 {
@@ -87,8 +90,8 @@ h2 {
 }
 
 h3 {
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   color: var(--color-light-red);
   font-family: var(--font-fancy);
 }
@@ -96,7 +99,7 @@ h3 {
 h4 {
   font-size: 1.1rem;
   line-height: 1.5rem;
-  
+
 }
 
 h5 {
@@ -128,24 +131,100 @@ p {
   line-height: 1rem;
 }
 
-.white-text{
+@media(min-width: 992px) {
+
+  h1 {
+    font-size: 5rem;
+    line-height: 3rem;
+    font-family: var(--font-fancy);
+    color: var(--color-light-red);
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    color: var(--color-dark-text);
+    font-family: var(--font-share);
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--color-light-red);
+    font-family: var(--font-fancy);
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+  }
+
+  h5 {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-family: var(--font-share);
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: var(--font-share);
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: var(--font-share);
+  }
+
+  .smaller-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-family: var(--font-share);
+  }
+
+  .smallest-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/*TEXT COLORS*/
+.white-text {
   color: var(--color-white-text);
 }
-.bright-red-text{
+
+.bright-red-text {
   color: var(--color-bright-red);
 }
-.light-red-text{
+
+.light-red-text {
   color: var(--color-light-red);
 }
-.light-text{
+
+.light-text {
   color: var(--color-light-text);
 }
-.medium-text{
+
+.medium-text {
   color: var(--color-medium-text);
 }
-.dark-text{
+
+.dark-text {
   color: var(--color-dark-text);
 }
+
 .center-text {
   text-align: center;
 }
@@ -158,6 +237,7 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
 /* Share Font Classes */
 .share-regular {
   font-family: "Share", sans-serif;

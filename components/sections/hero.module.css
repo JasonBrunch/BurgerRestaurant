@@ -27,3 +27,19 @@
     max-width: 150px;
     padding: 0.2rem 0;
 }
+
+/*RESPONSIVENESS*/
+
+@media(min-width: 992px){
+    .heroContent{
+        padding-left: var(--padding-large);
+    }
+    .heroImage{
+    
+        max-width: 800px;
+    }
+    .buttonWrapper{
+        margin-top: 0.7rem;
+    }
+    
+}
