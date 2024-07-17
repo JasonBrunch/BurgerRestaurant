@@ -11,9 +11,55 @@
     left: var(--padding-main);
 
   }
+ 
   
   .logoContainer {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+  } 
+  .linkContainer{
+    display: none;
+  }
+  
+  /*LARGE SCREENS*/
+
+  @media(min-width: 992px){
+    .header{
+      background-color: var(--color-green-background);
+      justify-content: space-between;
+      height: 75px;
+    }
+    .hamburger{
+      display: none;
+    }
+    .logoContainer{
+      position: static;
+      transform: none;
+      padding-left: 6rem;
+    }
+    .linkContainer{
+      display: flex;
+      flex-direction: row;
+    }
+    .navLinks{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style-type: none;
+      margin: 0;
+      padding:0;
+      gap: 2.5rem;
+    }
+    .socialMediaContainer{
+      display: flex;
+      flex-direction: row;
+      padding-right: 6rem;
+      gap: 0.5rem;
+    }
+    .navItem{
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-white-text);
+    }
   }

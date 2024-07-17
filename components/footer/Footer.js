@@ -67,8 +67,8 @@ const Footer = () => {
             <section className={styles.bottomSection}>
                 <p className="smaller-text">Stuff Goes Here</p>
                 <div className={styles.socialMediaContainer}>
-                <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
-                <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
+                    <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
+                    <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
                     <Image src="/svgs/trip-advisor.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
                 </div>
                 <p className="smaller-text">C 2024 Spacedog Interactive. All Rights Reserved</p>
