@@ -26,7 +26,7 @@
   --color-dark-text: #292929;
   --color-medium-text: #626262;
   --color-lightest-text: #989898;
-  --color-light-text: #d2d2d2;
+  --color-light-text: #616161;
   --color-white-text: #FFFFFF;
   --color-black-background: #232323;
   --color-beige-background: #f3f0e7;
@@ -268,7 +268,10 @@ p {
 }
 
 
-
+/*UTILITY CLASSES*/
+.no-wrap{
+  white-space: nowrap;
+}
 
 
 
