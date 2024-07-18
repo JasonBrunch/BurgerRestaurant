@@ -13,3 +13,10 @@
     align-items: center;
     gap: 1.2rem;
 }
+
+@media(min-width: 992px){
+    .buttonContainer{
+        display: flex;
+        flex-direction: row;
+    }
+}
