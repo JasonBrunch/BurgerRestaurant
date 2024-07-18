@@ -25,6 +25,7 @@
 
   --color-dark-text: #292929;
   --color-medium-text: #626262;
+  --color-lightest-text: #989898;
   --color-light-text: #d2d2d2;
   --color-white-text: #FFFFFF;
   --color-black-background: #232323;
@@ -211,6 +212,9 @@ p {
 
 .light-red-text {
   color: var(--color-light-red);
+}
+.lightest-text{
+  color: var(--color-lightest-text);
 }
 
 .light-text {

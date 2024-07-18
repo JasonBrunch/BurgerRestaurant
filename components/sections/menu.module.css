@@ -37,3 +37,33 @@
     flex-direction: inherit;
     align-items: center;
 }
+.menuItemTopRow{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+.menuItemBottomRow{
+    display: none;
+}
+.horizontalLine{
+    display: none;
+}
+@media(min-width: 992px){
+    .menuItem{
+        display: flex;
+        align-items: start;
+    }
+    .menuItemTopRow{
+       flex-direction: row;
+       width: 100%;
+    }
+    .menuItemBottomRow{
+        display: block;
+    }
+    .horizontalLine{
+        display: block;
+        width: 100%;
+    }
+}
+/*UTILity */
