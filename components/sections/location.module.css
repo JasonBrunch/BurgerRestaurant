@@ -13,10 +13,15 @@
     align-items: center;
     gap: 1.2rem;
 }
-
+.mapComponent{
+    display: none;
+}
 @media(min-width: 992px){
     .buttonContainer{
         display: flex;
         flex-direction: row;
+    }
+    .mapComponent{
+        display: block;
     }
 }

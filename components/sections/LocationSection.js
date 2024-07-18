@@ -3,7 +3,10 @@ import styles from "./location.module.css";
 import SOButton from "../buttons/SquareOutlineButton";
 import PillButton from "../buttons/PillButton";
 
+import dynamic from 'next/dynamic';
+import MapProvider from '@/providers/MapProvider';
 
+const MapComponent = dynamic(() => import('@/components/MapComponent'), { ssr: false });
 
 const LocationSection = () => {
     return (
@@ -13,12 +16,20 @@ const LocationSection = () => {
                 <SOButton text="GIBSONS" />
                 <SOButton text="SECHELT" />
             </div>
-            <h4 className="dark-text center-text">1873 W 4TH AVE. < br/>
-             VANCOUVER BC. <br/> V6J 1M4<br/>
-             (604) 732-9545 <br/>
-              EMAIL: GMFA@XTRAMILE.CA
+            <h4 className="dark-text center-text">1873 W 4TH AVE. < br />
+                VANCOUVER BC. <br /> V6J 1M4<br />
+                (604) 732-9545 <br />
+                EMAIL: GMFA@XTRAMILE.CA
             </h4>
-            <PillButton/>
+            <div className={styles.mapComponent}>
+                <MapProvider>
+                    <MapComponent />
+                </MapProvider>
+            </div>
+
+
+
+            <PillButton />
 
 
         </section>
