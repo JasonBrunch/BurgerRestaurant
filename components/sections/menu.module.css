@@ -32,6 +32,13 @@
     align-items: center;
     background-color: var(--color-green-background);
 }
+.menuItemContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
 .menuItem{
     display: inherit;
     flex-direction: inherit;
@@ -56,6 +63,21 @@
     .burgerSection, .sidesSection, .sweetsSection{
         padding: 6rem 0 7rem 0;
         gap: 1.3rem;
+        
+        padding: 6rem var(--padding-large);
+      
+    }
+    .burgerSection{
+        align-items: flex-end;
+    }
+    .sidesSection{
+        align-items: flex-start;
+    }
+    .sweetsSection{
+        align-items: flex-end;
+    }
+    .menuItemContainer{
+        align-items: flex-start;
     }
     .menuItem{
         display: flex;
