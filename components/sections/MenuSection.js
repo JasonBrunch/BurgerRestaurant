@@ -7,8 +7,8 @@ import styles from "./menu.module.css";
 const MenuSection = () => {
     return (
         <section className={styles.section}>
-            <div className={`${styles.burgerSection} debug `}>
-                <div className={`${styles.menuItemContainer} debug `}>
+            <div className={`${styles.burgerSection}  `}>
+                <div className={`${styles.menuItemContainer}  `}>
                     <h3 className={styles.title}>Burgers</h3>
                     <div className={`${styles.menuItem} `}>
                         <div className={`${styles.menuItemTopRow} `}>
@@ -62,7 +62,7 @@ const MenuSection = () => {
 
             </div>
             <div className={styles.sidesSection}>
-                <div className={`${styles.menuItemContainer} debug `}>
+                <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sides</h3>
                     <div className={`${styles.menuItem} `}>
                         <div className={`${styles.menuItemTopRow} `}>
@@ -111,7 +111,7 @@ const MenuSection = () => {
                 </div>
             </div>
             <div className={styles.sweetsSection}>
-                <div className={`${styles.menuItemContainer} debug `}>
+                <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sweets</h3>
                     <div className={`${styles.menuItem} `}>
                         <div className={`${styles.menuItemTopRow} `}>

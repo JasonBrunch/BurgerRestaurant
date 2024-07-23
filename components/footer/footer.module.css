@@ -1,3 +1,9 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .topSection{
     background-color: rgb(37, 37, 37);
@@ -8,6 +14,17 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+
+@media(min-width: 992px){
+    .topSection{
+        flex-direction: row;
+        padding: 4rem var(--padding-large) 2.5rem var(--padding-large);
+    }
+}
+
+
+
 .hoursContainer{
     display: flex;
     flex-direction: column;
@@ -105,28 +122,23 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottomSection{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(19, 19, 19);
     color: var(--color-white-text);
     padding: 1rem var(--padding-main);
 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+@media(min-width: 992px){
+    .bottomSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem var(--padding-large);
+    }
 }
 
 

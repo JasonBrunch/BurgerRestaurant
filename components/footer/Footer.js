@@ -8,8 +8,9 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <section className={styles.topSection}>
-                <h5>OPENING HOURS</h5>
+               
                 <div className={styles.hoursContainer}>
+                     <h5>OPENING HOURS</h5>
                     <div className={styles.hoursLine}>
                         <h6 >MONDAY</h6>
                         <hr />
@@ -53,8 +54,7 @@ const Footer = () => {
                         23419 Gray Rd. <br />
                         Sechelt, BC <br />
                     </p>
-                </div>
-                <div className={styles.newsletterContainer}>
+                     <div className={styles.newsletterContainer}>
                     <h5>SIGN UP FOR OUR NEWSLETTER</h5>
                     <div className={styles.formContainer}>
                         <form action="">
@@ -63,6 +63,9 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
+                
+                </div>
+           
             </section >
             <section className={styles.bottomSection}>
                 <p className="smaller-text">Stuff Goes Here</p>
