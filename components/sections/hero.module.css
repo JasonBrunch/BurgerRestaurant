@@ -1,45 +1,67 @@
-.hero{
+.hero {
     height: 500px;
     background-color: var(--color-green-background);
 
     display: flex;
     align-items: center;
     padding: 0 var(--padding-main);
+
+    position: relative;
 }
 
 
-.heroContent{
+.heroContent {
     display: flex;
     flex-direction: column;
     width: 100%;
 
     gap: 0.5rem;
-    
+
 }
 
-.heroText{
+.heroText {
     line-height: 1;
 }
 
 
 
-.buttonWrapper{
+.buttonWrapper {
     max-width: 150px;
     padding: 0.2rem 0;
+}
+.overlappingImage{
+    display: none;
 }
 
 /*RESPONSIVENESS*/
 
-@media(min-width: 992px){
-    .heroContent{
+@media(min-width: 992px) {
+    .heroContent {
         padding-left: var(--padding-large);
     }
-    .heroImage{
-    
+
+    .heroImage {
+
         max-width: 800px;
     }
-    .buttonWrapper{
+
+    .buttonWrapper {
         margin-top: 0.7rem;
     }
-    
+
+    .overlappingImage {
+        display: block;
+        position: absolute;
+        top: 60%;
+        /* Adjust as necessary */
+        left: 50%;
+        /* Adjust as necessary */
+        transform: translate(-50%, -50%);
+        width: 30vw;
+        /* Adjust size as necessary */
+        height: auto;
+        z-index: 0;
+        /* Ensure it appears behind other content */
+    }
+
 }

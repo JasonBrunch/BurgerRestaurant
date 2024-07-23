@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./menu.module.css";
+import SVGDivider from "@/components/SvgPageDivider.js";
 
 
 
@@ -61,6 +62,10 @@ const MenuSection = () => {
 
 
             </div>
+
+
+            <SVGDivider topColor="#232323" bottomColor="#f3f0e7" />
+
             <div className={styles.sidesSection}>
                 <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sides</h3>
@@ -110,6 +115,12 @@ const MenuSection = () => {
                     </div>
                 </div>
             </div>
+
+
+            <SVGDivider topColor="#f3f0e7" bottomColor="#9ed4d4" />
+
+
+
             <div className={styles.sweetsSection}>
                 <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sweets</h3>

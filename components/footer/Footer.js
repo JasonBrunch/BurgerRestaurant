@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <section className={styles.topSection}>
+            <section className={`${styles.topSection} `}>
                
                 <div className={styles.hoursContainer}>
                      <h5>OPENING HOURS</h5>

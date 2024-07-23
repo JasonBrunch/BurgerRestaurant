@@ -20,6 +20,8 @@
     .topSection{
         flex-direction: row;
         padding: 4rem var(--padding-large) 2.5rem var(--padding-large);
+      
+      
     }
 }
 
@@ -30,6 +32,11 @@
     flex-direction: column;
     gap:1.5rem;
     padding-right: 4rem;
+}
+@media(min-width: 992px){
+    .hoursContainer{
+        min-width: 400px;
+    }
 }
 .hoursLine{
     display: flex;

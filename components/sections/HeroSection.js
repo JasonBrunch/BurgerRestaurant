@@ -23,6 +23,16 @@ const HeroSection = () => {
                     <HeroButton />
                 </div>
             </div>
+            <div className={styles.overlappingImage}>
+                <Image
+                    src="/images/fallingBurger.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt="Overlapping Image"
+                />
+            </div>
         </section>
     );
 };
