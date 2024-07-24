@@ -17,22 +17,22 @@ const header = () => {
                 <ul className={styles.navLinks}>
                     <li className={styles.navItem}>
                         <Link href="/">
-                            HOME
+                            <h5>HOME</h5>
                         </Link>
                     </li>
                     <li className={styles.navItem}>
                         <Link href="/">
-                            ABOUT
+                            <h5>ABOUT</h5>
                         </Link>
                     </li>
                     <li className={styles.navItem}>
                         <Link href="/">
-                            MENU
+                            <h5>MENU</h5>
                         </Link>
                     </li>
                     <li className={styles.navItem}>
                         <Link href="/">
-                            CONTACT
+                            <h5>CONTACT</h5>
                         </Link>
                     </li>
                 </ul>

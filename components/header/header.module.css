@@ -28,7 +28,7 @@
     .header{
       background-color: var(--color-green-background);
       justify-content: space-between;
-      height: 75px;
+      height: 90px;
     }
     .hamburger{
       display: none;
@@ -49,7 +49,7 @@
       list-style-type: none;
       margin: 0;
       padding:0;
-      gap: 2.5rem;
+      gap: 3rem;
     }
     .socialMediaContainer{
       display: flex;

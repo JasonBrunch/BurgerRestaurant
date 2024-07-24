@@ -35,6 +35,7 @@
 
   --padding-main: 1.7rem;
   --padding-large: 10rem;
+  --padding-xlarge: 12rem;
 
 
 
@@ -137,8 +138,7 @@ p {
   h1 {
     font-size: 5rem;
     line-height: 3rem;
-    font-family: var(--font-fancy);
-    color: var(--color-light-red);
+  
   }
 
   h2 {
@@ -163,7 +163,7 @@ p {
   }
 
   h5 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 2rem;
     font-family: var(--font-share);
   }

@@ -36,32 +36,47 @@
 /*RESPONSIVENESS*/
 
 @media(min-width: 992px) {
+    .hero{
+        height: 550px;
+    }
     .heroContent {
         padding-left: var(--padding-large);
     }
-
     .heroImage {
 
         max-width: 800px;
     }
-
     .buttonWrapper {
         margin-top: 0.7rem;
     }
-
     .overlappingImage {
         display: block;
         position: absolute;
-        top: 60%;
+        top: 82%;
         /* Adjust as necessary */
-        left: 50%;
+        left: 74%;
         /* Adjust as necessary */
         transform: translate(-50%, -50%);
-        width: 30vw;
+        width: 40vw;
         /* Adjust size as necessary */
         height: auto;
         z-index: 0;
         /* Ensure it appears behind other content */
     }
 
+}
+@media(min-width: 1200px){
+    .hero{
+ 
+    }
+    .heroContent {
+        padding-left: 18rem;
+    }
+    .heroImage {
+
+        max-width: 800px;
+    }
+    .buttonWrapper {
+        margin-top: 0.7rem;
+    }
 }
