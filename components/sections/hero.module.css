@@ -40,7 +40,7 @@
         height: 550px;
     }
     .heroContent {
-        padding-left: var(--padding-large);
+        padding-left: var(--padding-xlarge);
     }
     .heroImage {
 
@@ -52,31 +52,16 @@
     .overlappingImage {
         display: block;
         position: absolute;
-        top: 82%;
+        top: 88%;
         /* Adjust as necessary */
-        left: 74%;
+        left: 73%;
         /* Adjust as necessary */
         transform: translate(-50%, -50%);
-        width: 40vw;
+        width: 38vw;
         /* Adjust size as necessary */
         height: auto;
         z-index: 0;
         /* Ensure it appears behind other content */
     }
 
-}
-@media(min-width: 1200px){
-    .hero{
- 
-    }
-    .heroContent {
-        padding-left: 18rem;
-    }
-    .heroImage {
-
-        max-width: 800px;
-    }
-    .buttonWrapper {
-        margin-top: 0.7rem;
-    }
 }

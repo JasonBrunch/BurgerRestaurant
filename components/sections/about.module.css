@@ -37,7 +37,7 @@
 .videoContainer {
     position: relative;
     width: 100%;
-    max-width: 500px; /* Set the max-width you want */
+    max-width: 500px; 
     background: #000;
     border-radius: 10px;
     overflow: hidden;
@@ -47,7 +47,7 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 8px;
     object-fit: cover; /* Ensures the video covers the container without distortion */
 }
 
@@ -56,17 +56,19 @@
         padding: 3rem 0;
     }
     .aboutContent {
-        padding-left: var(--padding-large);
+        padding-left: var(--padding-xlarge);
+        max-width: 1000px;
     }
 
     .aboutContent h3 {
-        padding-right: 10rem;
+        padding-right: 0rem;
         padding-bottom: 0rem;
         line-height: 0.7;
     }
 
     .aboutContent h2 {
-        padding-right: 2rem;
+        padding-right: 4rem;
+        line-height: 3.2rem;
     }
 
     .aboutContent p {
@@ -74,6 +76,11 @@
         padding-right: 1rem;
     }
     .videoSection{
-        padding-right: var(--padding-large);
+        padding-right: var(--padding-xlarge);
+    }
+    .videoContainer {
+        
+        max-width: 700px; 
+  ;
     }
 }

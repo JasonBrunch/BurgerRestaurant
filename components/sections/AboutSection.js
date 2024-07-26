@@ -3,10 +3,10 @@ import styles from "./about.module.css";
 
 const AboutSection = () => {
     return (
-        <section className={`${styles.section}`}>
-            <div className={`${styles.aboutContent} `}>
+        <section className={`${styles.section} debug`}>
+            <div className={`${styles.aboutContent} debug2`}>
                 <h3>It tastes great!</h3>
-                <h2>BEVERAGES & FOOD YOU WON'T FIND ANYWHERE ELSE</h2>
+                <h2 className="debug2">BEVERAGES & FOOD YOU WON'T FIND ANYWHERE ELSE</h2>
                 <p>Lorem ipsum dolor sit amet, admodum civibus delicatissimi mei cu. Has eu impedit vocibus,
                     ut his doctus definitiones, no expetenda deseruisse nam. Nusquam urbanitas in vix. Ex sea
                     reque senserit, mea te ullum errem. Debet docendi deserunt duo an, Magna molestie duo id.
