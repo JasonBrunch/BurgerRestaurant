@@ -59,12 +59,15 @@
 
     margin-top: auto; /* Push the line to the bottom of the flex container */
 }
+.overlappingImage1{
+    display: none;
+}
 @media(min-width: 992px){
     .burgerSection, .sidesSection, .sweetsSection{
         padding: 6rem 0 7rem 0;
         gap: 1.3rem;
         
-        padding: 6rem var(--padding-large);
+        padding: 6rem var(--padding-xlarge);
       
     }
     .burgerSection{
@@ -103,6 +106,16 @@
 
     .menuItemTopRow h5{
         line-height: 1;
+    }
+    .overlappingImage1 {
+        display: block;
+        position: absolute;
+        top: 88%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        width: 38vw;
+        height: auto;
+        z-index: 0;
     }
 }
 /*UTILity */

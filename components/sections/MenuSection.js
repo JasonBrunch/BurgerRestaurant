@@ -9,6 +9,16 @@ const MenuSection = () => {
     return (
         <section className={styles.section}>
             <div className={`${styles.burgerSection}  `}>
+            <div className={styles.overlappingImage1}>
+                <Image
+                    src="/images/friesInBucket.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt="Overlapping Image"
+                />
+            </div>
                 <div className={`${styles.menuItemContainer}  `}>
                     <h3 className={styles.title}>Burgers</h3>
                     <div className={`${styles.menuItem} `}>
