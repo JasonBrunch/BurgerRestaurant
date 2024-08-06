@@ -5,9 +5,9 @@ import styles from "./heroButton.module.css"
 
 
 
-const HeroButton = () => {
+const HeroButton = ({onClick}) => {
     return(
-        <button className={styles.heroButt} role="button">SEE MENU</button>
+        <button className={styles.heroButt} role="button" onClick={onClick}>SEE MENU</button>
     );
 };
 

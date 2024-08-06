@@ -10,19 +10,16 @@ const mapContainerStyle = {
   height: '350px',
 };
 
-const defaultCenter = {
-  lat: 40.73061, // Replace with your restaurant's latitude
-  lng: -73.935242, // Replace with your restaurant's longitude
-};
 
-const MapComponent = () => {
+
+const MapComponent = ({ coordinates }) => {
   return (
     <GoogleMap
       mapContainerStyle={mapContainerStyle}
-      center={defaultCenter}
+      center={coordinates}
       zoom={15}
     >
-      <Marker position={defaultCenter} />
+      <Marker position={coordinates} />
     </GoogleMap>
   );
 };

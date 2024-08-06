@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./footer.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -8,9 +9,9 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <section className={`${styles.topSection} `}>
-               
+
                 <div className={styles.hoursContainer}>
-                     <h5>OPENING HOURS</h5>
+                    <h5>OPENING HOURS</h5>
                     <div className={styles.hoursLine}>
                         <h6 >MONDAY</h6>
                         <hr />
@@ -54,25 +55,32 @@ const Footer = () => {
                         23419 Gray Rd. <br />
                         Sechelt, BC <br />
                     </p>
-                     <div className={styles.newsletterContainer}>
-                    <h5>SIGN UP FOR OUR NEWSLETTER</h5>
-                    <div className={styles.formContainer}>
-                        <form action="">
-                            <input type="text" id="userEmail" placeholder="Your email" required />
-                            <button type="submit">+</button>
-                        </form>
+                    <div className={styles.newsletterContainer}>
+                        <h5>SIGN UP FOR OUR NEWSLETTER</h5>
+                        <div className={styles.formContainer}>
+                            <form action="">
+                                <input type="text" id="userEmail" placeholder="Your email" required />
+                                <button type="submit">+</button>
+                            </form>
+                        </div>
                     </div>
+
                 </div>
-                
-                </div>
-           
+
             </section >
             <section className={styles.bottomSection}>
                 <p className="smaller-text">Stuff Goes Here</p>
                 <div className={styles.socialMediaContainer}>
-                    <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
-                    <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
-                    <Image src="/svgs/trip-advisor.svg" alt="Social Media Icon" className={styles.socialIcon} width={40} height={40} />
+                    <Link href="http://www.instagram.com" target="_blank">
+                        <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={30} height={30} />
+                    </Link>
+                    <Link href="http://www.facebook.com" target="_blank">
+                        <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={30} height={30} />
+                    </Link>
+                    <Link href="http://www.tripadvisor.com" target="_blank">
+                        <Image src="/svgs/trip-advisor.svg" alt="Social Media Icon" className={styles.socialIcon} width={30} height={30} />
+                    </Link>
+
                 </div>
                 <p className="smaller-text">C 2024 Spacedog Interactive. All Rights Reserved</p>
             </section>

@@ -19,7 +19,7 @@
 @media(min-width: 992px){
     .topSection{
         flex-direction: row;
-        padding: 4rem var(--padding-large) 2.5rem var(--padding-large);
+        padding: 4rem var(--padding-xlarge) 2.5rem var(--padding-xlarge);
       
       
     }
@@ -144,7 +144,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem var(--padding-large);
+        padding: 1rem var(--padding-xlarge);
     }
 }
 

@@ -13,7 +13,8 @@ export default function Home() {
       <HeroSection/>
       <PageDivider topColor="#9ed4d4" bottomColor="#f3f0e7" />
       <AboutSection/>
-      <PageDivider topColor="#f3f0e7" bottomColor="#232323" />
+      
+      
       <MenuSection/>
       <PageDivider topColor="#9ed4d4" bottomColor="#f3f0e7" />
       <LocationSection/>

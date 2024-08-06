@@ -1,24 +1,30 @@
 import React from "react";
 import styles from "./menu.module.css";
 import SVGDivider from "@/components/SvgPageDivider.js";
+import Image from "next/image";
+
 
 
 
 
 const MenuSection = () => {
     return (
-        <section className={styles.section}>
+        <section id="menu" className={styles.section}>
+              <div className={`${styles.divider} `}>
+                 <SVGDivider topColor="#f3f0e7" bottomColor="#232323" />  
+                 </div>   
             <div className={`${styles.burgerSection}  `}>
-            <div className={styles.overlappingImage1}>
-                <Image
-                    src="/images/friesInBucket.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto' }}
-                    alt="Overlapping Image"
-                />
-            </div>
+                
+                <div className={styles.overlappingImage1}>
+                    <Image
+                        src="/images/friesInBucket.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }}
+                        alt="Overlapping Image"
+                    />
+                </div>
                 <div className={`${styles.menuItemContainer}  `}>
                     <h3 className={styles.title}>Burgers</h3>
                     <div className={`${styles.menuItem} `}>
@@ -77,6 +83,17 @@ const MenuSection = () => {
             <SVGDivider topColor="#232323" bottomColor="#f3f0e7" />
 
             <div className={styles.sidesSection}>
+            <div className={styles.overlappingImage2}>
+                    <Image
+                        src="/images/cola.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }}
+                        alt="Overlapping Image"
+                    />
+                </div>
+                
                 <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sides</h3>
                     <div className={`${styles.menuItem} `}>
@@ -132,6 +149,18 @@ const MenuSection = () => {
 
 
             <div className={styles.sweetsSection}>
+                
+            <div className={styles.overlappingImage3}>
+                    <Image
+                        src="/images/donuts.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }}
+                        alt="Overlapping Image"
+                    />
+                </div>
+
                 <div className={`${styles.menuItemContainer} `}>
                     <h3 className={styles.title}>Sweets</h3>
                     <div className={`${styles.menuItem} `}>

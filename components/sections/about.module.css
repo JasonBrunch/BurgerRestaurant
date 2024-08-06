@@ -3,7 +3,8 @@
     padding: 3rem var(--padding-main);
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align content to the left */
+    align-items: flex-start; 
+    gap: 0;
 }
 
 .aboutContent {
@@ -57,7 +58,7 @@
     }
     .aboutContent {
         padding-left: var(--padding-xlarge);
-        max-width: 1000px;
+        max-width: 900px;
     }
 
     .aboutContent h3 {
@@ -67,7 +68,7 @@
     }
 
     .aboutContent h2 {
-        padding-right: 4rem;
+        padding-right: 1rem;
         line-height: 3.2rem;
     }
 

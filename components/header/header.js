@@ -1,3 +1,6 @@
+'use client';
+
+
 import React from "react";
 import Link from 'next/link';
 import styles from "./header.module.css";
@@ -5,6 +8,15 @@ import Image from "next/image";
 
 
 const header = () => {
+
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
     return (
         <header className={`${styles.header} `}>
             <div className={`${styles.hamburger} `}>
@@ -16,23 +28,23 @@ const header = () => {
             <div className={`${styles.linkContainer}  `}>
                 <ul className={styles.navLinks}>
                     <li className={styles.navItem}>
-                        <Link href="/">
-                            <h5>HOME</h5>
+                        <Link href="/" scroll={false} onClick={() => scrollToSection('home')}>
+                            HOME
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="/">
-                            <h5>ABOUT</h5>
+                        <Link href="/" scroll={false} onClick={() => scrollToSection('about')}>
+                            ABOUT
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="/">
-                            <h5>MENU</h5>
+                        <Link href="/" scroll={false} onClick={() => scrollToSection('menu')}>
+                            MENU
                         </Link>
                     </li>
                     <li className={styles.navItem}>
-                        <Link href="/">
-                            <h5>CONTACT</h5>
+                        <Link href="/" scroll={false} onClick={() => scrollToSection('location')}>
+                            CONTACT
                         </Link>
                     </li>
                 </ul>
@@ -40,9 +52,16 @@ const header = () => {
 
             </div>
             <div className={styles.socialMediaContainer}>
-                <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
-                <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
-                <Image src="/svgs/trip-advisor.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
+                <Link href="http://www.instagram.com" target="_blank">
+                    <Image src="/svgs/instagram.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
+                </Link>
+                <Link href="http://www.facebook.com" target="_blank">
+                    <Image src="/svgs/facebook.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
+                </Link>
+                <Link href="http://www.tripadvisor.com" target="_blank">
+                    <Image src="/svgs/trip-advisor.svg" alt="Social Media Icon" className={styles.socialIcon} width={35} height={35} />
+                </Link>
+
             </div>
         </header>
     );

@@ -5,9 +5,9 @@ import styles from "./pillButton.module.css"
 
 
 
-const PillButton = () => {
+const PillButton = ({onClick}) => {
     return(
-        <button className={styles.button}  role="button">GET DIRECTIONS</button>
+        <button className={styles.button}  role="button" onClick={onClick}>GET DIRECTIONS</button>
     );
 };
 

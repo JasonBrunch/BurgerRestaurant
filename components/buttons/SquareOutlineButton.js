@@ -5,9 +5,15 @@ import styles from "./squareOutlineButton.module.css"
 
 
 
-const SOButton = ({text}) => {
-    return(
-        <button className={styles.button}  role="button">{text}</button>
+const SOButton = ({ text, onClick }) => {
+    return (
+        <button
+            className={styles.button}
+            role="button"
+            onClick={onClick}
+        >
+            {text}
+        </button>
     );
 };
 
