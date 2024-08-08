@@ -8,10 +8,9 @@ const AboutSection = () => {
             <div className={`${styles.aboutContent} `}>
                 <h3>It tastes great!</h3>
                 <h2 className="">BEVERAGES & FOOD YOU WON&apos;T FIND ANYWHERE ELSE</h2>
-                <p>Lorem ipsum dolor sit amet, admodum civibus delicatissimi mei cu. Has eu impedit vocibus,
-                    ut his doctus definitiones, no expetenda deseruisse nam. Nusquam urbanitas in vix. Ex sea
-                    reque senserit, mea te ullum errem. Debet docendi deserunt duo an, Magna molestie duo id.
-                    Usu ad alienum suscipit posidonium, ut est invidunt indoctum accusamus.</p>
+                <p>At Sunshine Coast Burger Company, fresh, local ingredients come together in mouthwatering, made-to-order burgers. 
+                    With two  locations on the Sunshine Coast BC, we take pride in serving our community fresh local ingredients. 
+                     Every bite delivers the taste of quality, because at Sunshine Coast Burger Company, we believe in great food, exceptional service, and supporting our local farmers.</p>
             </div>
             <div className={`${styles.videoSection} `}>
                 <div className={`${styles.videoContainer} `}>

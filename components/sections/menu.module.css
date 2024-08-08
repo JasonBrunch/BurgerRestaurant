@@ -61,15 +61,22 @@
     flex-direction: inherit;
     align-items: center;
 }
+.menuItemTopRow h5{
+
+    margin-bottom: -4px;
+
+}
 
 .menuItemBottomRow{
     display: none;
 }
 .horizontalLine{
     display: none;
-    height: 1px; /* Adjust the thickness of the line */
+    height: 1px; 
 
     margin-top: auto; /* Push the line to the bottom of the flex container */
+    margin-right: 2px;
+    margin-left: 2px;
 }
 .overlappingImage1, .overlappingImage2, .overlappingImage3{
     display: none;
@@ -112,7 +119,7 @@
     .horizontalLine{
         display: block;
         width: 100%;
-        line-height: 0;
+        line-height: -10px;
         
     }
 
@@ -123,7 +130,7 @@
     .overlappingImage1 {
         display: block;
         position: absolute;
-        top: 58%;
+        top: 62%;
         left: 28%;
         transform: translate(-50%, -50%);
         width: 1000px;
@@ -134,7 +141,7 @@
         display: block;
         position: absolute;
         top: 55%;
-        left: 65%;
+        left: 70%;
         transform: translate(-50%, -50%);
         width: 20vw;
         height: auto;
