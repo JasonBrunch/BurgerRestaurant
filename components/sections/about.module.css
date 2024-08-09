@@ -82,6 +82,33 @@
     .videoContainer {
         
         max-width: 650px; 
-  ;
+  
     }
+}
+@media(min-width: 2100px){
+    .section{
+        padding: 3rem 0;
+    }
+    .aboutContent {
+        padding-left: var(--padding-xxlarge);
+        max-width: 1200px;
+    }
+
+
+
+
+
+    .aboutContent p {
+        padding: 0;
+        padding-right: 0rem;
+    }
+    .videoSection{
+        padding-right: var(--padding-xxlarge);
+    }
+    .videoContainer {
+        
+        max-width: 650px; 
+  
+    }
+    
 }

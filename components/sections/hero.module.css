@@ -43,13 +43,17 @@
 @media(min-width: 992px) {
     .hero{
         height: 550px;
+
+        padding: 0 var(--padding-main);
     }
     .heroContent {
-        padding-left: var(--padding-xlarge);
+         padding: 0px var(--padding-xlarge);
+         margin-top: 10%;
     }
     .heroImage {
 
-        max-width: 55%;
+        width: 55%;
+        max-width: 800px;
         margin-left: -10px ;
     }
     .buttonWrapper {
@@ -59,15 +63,35 @@
         display: block;
         position: absolute;
         top: 88%;
-        /* Adjust as necessary */
+
         left: 73%;
-        /* Adjust as necessary */
         transform: translate(-50%, -50%);
         width: 38vw;
-        /* Adjust size as necessary */
         height: auto;
         z-index: 0;
-        /* Ensure it appears behind other content */
     }
 
+}
+@media(min-width: 2100px){
+    .hero{
+        height: 800px;
+
+
+    }
+
+    .heroContent {
+        padding: 0px var(--padding-xxlarge);
+        margin-top: 10%;
+   }
+    .overlappingImage {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        width: 38vw;
+        height: auto;
+        z-index: 0;
+   
+    }
 }

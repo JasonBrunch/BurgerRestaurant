@@ -18,7 +18,7 @@ const HeroSection = () => {
 
     return (
         <section id="home" className={`${styles.hero} `}>
-            <div className={`${styles.heroContent} `}>
+            <div className={`${styles.heroContent}  `}>
                 <h1 className={`${styles.heroText} `}>Sunshine Coast</h1>
                 <div className={`${styles.heroImage} `}>
                     <Image

@@ -36,7 +36,8 @@
   --padding-main: 1.7rem;
   --padding-large: 10rem;
   --padding-xlarge: 22rem;
-
+  --padding-xxlarge: 33rem;
+  --padding-xxxlarge: 36rem;
 
 
 
@@ -200,7 +201,66 @@ p {
 
 
 }
+@media(min-width: 2100px) {
 
+  h1 {
+    font-size: 5rem;
+    line-height: 3rem;
+  
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    color: var(--color-dark-text);
+    font-family: var(--font-share);
+  }
+
+  h3 {
+    font-size: 5rem;
+    line-height: 3rem;
+    color: var(--color-light-red);
+    font-family: var(--font-fancy);
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: var(--font-share);
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: var(--font-share);
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: var(--font-share);
+  }
+
+  .smaller-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-family: var(--font-share);
+  }
+
+  .smallest-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+
+
+}
 
 
 

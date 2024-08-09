@@ -83,7 +83,7 @@
 }
 @media(min-width: 992px){
     .burgerSection, .sidesSection, .sweetsSection{
-        padding: 6rem 0 7rem 0;
+       
         gap: 1.3rem;
         
         padding: 6rem var(--padding-xlarge);
@@ -152,6 +152,46 @@
         position: absolute;
         top: 55%;
         left: 25%;
+        transform: translate(-50%, -50%);
+        width: 20vw;
+        height: auto;
+        z-index: 0;
+    }
+}
+
+@media(min-width: 2100px){
+    .burgerSection, .sidesSection, .sweetsSection{
+        padding: 6rem var(--padding-xxxlarge);
+
+      
+    }
+
+
+    .overlappingImage1 {
+        display: block;
+        position: absolute;
+        top: 62%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        width: 1200px;
+        height: auto;
+        z-index: 0;
+    }
+    .overlappingImage2 {
+        display: block;
+        position: absolute;
+        top: 55%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        width: 20vw;
+        height: auto;
+        z-index: 0;
+    }
+    .overlappingImage3 {
+        display: block;
+        position: absolute;
+        top: 55%;
+        left: 33%;
         transform: translate(-50%, -50%);
         width: 20vw;
         height: auto;
